@@ -3,15 +3,15 @@ class database
 {
 
 	//DB Params
-	// private $dns = "mysql:host=bz04p5joz9eocaxxpli4-mysql.services.clever-cloud.com;dbname=bz04p5joz9eocaxxpli4";
-	// private $username = "u2agpwal6duhee3x";
-	// private $password = "EANi9cU5HiD9lakUcbnK";
-	// private $conn;
-
-	private $dns = "mysql:host=localhost;dbname=blog";
-	private $username = "root";
-	private $password = "";
+	private $dns = "mysql:host=bz04p5joz9eocaxxpli4-mysql.services.clever-cloud.com;dbname=bz04p5joz9eocaxxpli4";
+	private $username = "u2agpwal6duhee3x";
+	private $password = "EANi9cU5HiD9lakUcbnK";
 	private $conn;
+
+	// private $dns = "mysql:host=localhost;dbname=blog";
+	// private $username = "root";
+	// private $password = "";
+	// private $conn;
 
 	//DB Connect
 	public function connect()
