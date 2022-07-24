@@ -167,12 +167,12 @@ if (isset($_GET['id'])) {
                                             </div>
                                             <div class="form-group">
                                                 <label>Summary</label>
-                                                <textarea id="summernote_summary" name="blog_summary" class="form-control" rows="3"><?php echo $new_blog->v_post_summary ?></textarea>
+                                                <textarea id="summernote_summary" name="blog_summary" class="form-control" rows="3"><?php echo htmlspecialchars_decode($new_blog->v_post_summary) ?></textarea>
                                             </div>
 
                                             <div class="form-group">
                                                 <label>Blog Content</label>
-                                                <textarea id="summernote_content" name="blog_content" class="form-control" rows="3"><?php echo $new_blog->v_post_content ?></textarea>
+                                                <textarea id="summernote_content" name="blog_content" class="form-control" rows="3"><?php echo htmlspecialchars_decode($new_blog->v_post_content) ?></textarea>
                                             </div>
 
                                             <?php

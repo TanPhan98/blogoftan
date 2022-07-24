@@ -104,13 +104,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 								<img src="images/upload/<?php echo $new_blog->v_main_image_url ?>" alt="" class="img-fluid">
 							</p>
 							<p>
-								<?php echo $new_blog->v_post_summary ?>
+								<?php echo htmlspecialchars_decode($new_blog->v_post_summary) ?>
 							</p>
 							<p>
 								<!-- rãnh thì thêm thêm 1 hình nữa -->
 								<img src="images/upload/<?php echo $new_blog->v_second_image_url ?>" alt="" class="img-fluid">
 							</p>
-							<p><?php echo $new_blog->v_post_content ?> </p>
+							<p><?php echo htmlspecialchars_decode($new_blog->v_post_content) ?> </p>
 							<!-- phần tag -->
 							<?php
 							$new_tag->n_blog_post_id = $_GET['id'];

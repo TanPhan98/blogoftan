@@ -47,7 +47,7 @@ $rs_blog = $new_blog->read_search_bar($_GET['key']);
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
-<body onload="pre_next()">
+<body >
 
 	<div id="colorlib-page">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
@@ -146,10 +146,14 @@ $rs_blog = $new_blog->read_search_bar($_GET['key']);
 											<ul>
 												<li>
 													<?php
+													//$getpage = isset($_GET['getpage']) ? $_GET['getpage']:1;
+
 													for ($i = 1; $i <= $total_page; $i++) {
 													?>
-															<li><a href="discover.php?page=<?php echo $i ?>&key=<?php echo $k ?>"><?php echo $i ?></a></li>
-											<?php } ?>
+														<li ><a href="discover.php?page=<?php echo $i ?>&key=<?php echo $k ?>"><?php echo $i ?></a></li>
+													<?php 
+													} 
+													?>
 
 											</ul>
 										</div>
@@ -188,6 +192,14 @@ $rs_blog = $new_blog->read_search_bar($_GET['key']);
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 	<script src="js/google-map.js"></script>
 	<script src="js/main.js"></script>
+	<script>
+		function pagecolor(){
+			alert(<?php echo $getpage; ?>);
+			var color = document.getElementById('<?php echo $getpage; ?>');
+			color.style.backgroundColor = "red";
+		}
+	</script>
+
 </body>
 
 </html>
