@@ -20,7 +20,7 @@ $rs_blog = $new_blog->read_search_bar($_GET['key']);
 <html lang="en">
 
 <head>
-	<title>Elen - Free Bootstrap 4 Template by Colorlib</title>
+	<title>Nathan</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
