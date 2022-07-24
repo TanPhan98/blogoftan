@@ -82,8 +82,8 @@ $all_tags = $new_tag->read_50();
     <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia</p>
     <form action="" method="POST" class="subscribe-form">
       <div class="form-group">
-        <input type="text" name="email" class="form-control" placeholder="Email Address">
-        <input type="submit" name="subscribe" class="mt-2 btn btn-white submit">
+        <input type="text" name="email" id="email" class="form-control" placeholder="Email Address">
+        <input type="submit" name="subscribe" class="mt-2 btn btn-white submit" onclick="checksubscribe()">
       </div>
     </form>
   </div>
@@ -95,3 +95,12 @@ $all_tags = $new_tag->read_50();
 
 </div><!-- END COL -->
 </div>
+<script>
+  function checksubscribe(){
+    if(document.getElementById("email").value==""){
+      alert("Please enter your email !");
+    }else{
+      alert("Thank your your subscribe !");
+    }
+  }
+</script>
