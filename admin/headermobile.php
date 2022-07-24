@@ -15,7 +15,7 @@
     </div>
     <nav class="navbar-mobile">
         <div class="container-fluid">
-            <ul class="navbar-mobile__list list-unstyled">
+            <ul >
                  <li>
                     <a class="js-arrow" href="index.php">
                         <i class="fas fa-tachometer-alt"></i>Dashboard</a>
