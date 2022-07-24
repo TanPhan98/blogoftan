@@ -1,5 +1,6 @@
 <?php
 include "header.php";
+include "headermobile.php";
 include "includes/subscriber.php";
 include "includes/contact.php";
 include "includes/blogs.php";
@@ -55,7 +56,7 @@ $num = (int)file_get_contents('../images/upload/count_visitors.txt');
 <body class="animsition">
     <div class="page-wrapper">
         <!-- HEADER MOBILE-->
-        <?php include "headermobile.php"; ?>
+        
         <!-- END HEADER MOBILE-->
 
         <!-- MENU SIDEBAR-->
