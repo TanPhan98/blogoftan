@@ -14,8 +14,9 @@
         </div>
     </div>
     <nav class="navbar-mobile">
+    <div class="container-fluid">
         <div class="container-fluid">
-            <ul >
+            <ul class="navbar-mobile__list list-unstyled">
                  <li>
                     <a class="js-arrow" href="index.php">
                         <i class="fas fa-tachometer-alt"></i>Dashboard</a>
@@ -45,6 +46,7 @@
                         <i class="fas fa-map-marker-alt"></i>Comments</a>
                 </li>
             </ul>
+        </div>
         </div>
     </nav>
 </header>
