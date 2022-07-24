@@ -17,7 +17,8 @@ include "includes/blogs.php";
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Dashboard</title>
+    <title>Admin</title>
+    <link rel="icon" href="../images/logo.png" type="image/png">
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">

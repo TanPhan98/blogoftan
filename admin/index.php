@@ -20,6 +20,7 @@ $num = (int)file_get_contents('../images/upload/count_visitors.txt');
 
 <head>
     <!-- Required meta tags-->
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="au theme template">
@@ -27,8 +28,8 @@ $num = (int)file_get_contents('../images/upload/count_visitors.txt');
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Dashboard</title>
-
+    <title>Admin</title>
+    <link rel="icon" href="../images/logo.png" type="image/png">
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
     <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
