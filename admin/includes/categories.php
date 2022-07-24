@@ -67,7 +67,7 @@ class category{
 		//Bind data
 		$stmt->bindParam(':category_title',$this->v_category_title);
 		$stmt->bindParam(':category_meta_title',$this->v_category_meta_title);
-		$stmt->bindParam(':category_path',$this->v_category_title);
+		$stmt->bindParam(':category_path',$this->v_category_path);
 		$stmt->bindParam(':date_created',$this->d_date_created);
 		$stmt->bindParam(':time_created',$this->d_time_created);
 

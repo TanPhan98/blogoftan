@@ -148,10 +148,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                     <table class="table table-borderless table-data3">
                                         <thead>
                                             <tr>
-                                                <th>date</th>
-                                                <th>type</th>
-                                                <th>description</th>
-                                                <th>status</th>
+                                                <th>ID</th>
+                                                <th>Title</th>
+                                                <th>Meta Title</th>
+                                                <th>Path</th>
                                                 <th>Function</th>
                                             </tr>
                                         </thead>
@@ -168,7 +168,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                                         <td><?php echo $rows['v_category_meta_title'] ?></td>
                                                         <td><?php echo $rows['v_category_path'] ?></td>
                                                         <td>
-                                                            <button class="btn btn-warning btn-sm">View</button>
+                                                            <a href="..\blog_categories.php?id=<?php echo $rows['n_category_id'] ?>" class="btn btn-warning btn-sm">View</a>
                                                             <button class="btn btn-warning btn-sm" type="button" data-toggle="modal" data-target="#edit_category<?php echo $rows['n_category_id'] ?>">
                                                                 Edit
                                                             </button>
