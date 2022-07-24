@@ -290,7 +290,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                     </div>
 
                                     <div class="modal-body">
-                                        <h3>Bạn có muốn xóa Category này không ?</h3>
+                                        <h3>Bạn có muốn xóa Blog này không ?</h3>
                                     </div>
 
                                     <div class="modal-footer">
