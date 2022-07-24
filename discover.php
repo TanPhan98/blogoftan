@@ -47,7 +47,7 @@ $rs_blog = $new_blog->read_search_bar($_GET['key']);
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
-<body >
+<body onload=pagecolor(); >
 
 	<div id="colorlib-page">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
@@ -146,15 +146,14 @@ $rs_blog = $new_blog->read_search_bar($_GET['key']);
 											<ul>
 												<li>
 													<?php
-													//$getpage = isset($_GET['getpage']) ? $_GET['getpage']:1;
-
+													$getpage = isset($_GET['page']) ? $_GET['page']:1;
+													$k = $_GET['key'];
 													for ($i = 1; $i <= $total_page; $i++) {
 													?>
-														<li ><a href="discover.php?page=<?php echo $i ?>&key=<?php echo $k ?>"><?php echo $i ?></a></li>
+														<li ><a id="<?php echo $i ?>" href="discover.php?page=<?php echo $i ?>&key=<?php echo $k ?>"><?php echo $i ?></a></li>
 													<?php 
 													} 
 													?>
-
 											</ul>
 										</div>
 									</div>
@@ -194,9 +193,9 @@ $rs_blog = $new_blog->read_search_bar($_GET['key']);
 	<script src="js/main.js"></script>
 	<script>
 		function pagecolor(){
-			alert(<?php echo $getpage; ?>);
 			var color = document.getElementById('<?php echo $getpage; ?>');
-			color.style.backgroundColor = "red";
+			color.style.backgroundColor = "#fd7e14";
+			color.style.color = "#fff";
 		}
 	</script>
 
