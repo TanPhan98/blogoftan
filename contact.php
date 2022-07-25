@@ -69,17 +69,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
               <h2 class="h4 font-weight-bold">Contact Information</h2>
             </div>
             <div class="w-100"></div>
-            <div class="col-md-2">
-              <p><span>Address:</span> Asheville, North Carolina</p>
-            </div>
-            <div class="col-md-3">
-              <p><span>Phone:</span> <a href="tel://1234567920">+ 0999999998</a></p>
+            <div class="col-md-4">
+              <p><span>Address:</span> Tra Vinh Province, Vietnam</p>
             </div>
             <div class="col-md-4">
-              <p><span>Email:</span> <a href="mailto:info@yoursite.com">20662001@kthcm.edu.com</a></p>
+              <p><span>Email:</span> <a href="mailto:info@yoursite.com">20662001@kthcm.edu.vn</a></p>
             </div>
-            <div class="col-md-3">
-              <p><span>Website</span> <a href="#">tanblog.com</a></p>
+            <div class="col-md-4">
+              <p><span>Website:</span> <a href="#">blogoftan.herokuapp.com</a></p>
             </div>
           </div>
           <div class="row block-9">
@@ -105,7 +102,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </div>
 
             <div class="col-md-6">
-              <div id="map"></div>
+              <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125870.84796171467!2d106.43119594999999!3d9.641335499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a02f2f18edba3b%3A0x2a45a632027b64c5!2zRHV5w6puIEjhuqNpLCBUcsOgIFZpbmg!5e0!3m2!1svi!2s!4v1658755438326!5m2!1svi!2s" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
             </div>
           </div>
         </div>
@@ -136,7 +133,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   <script src="js/bootstrap-datepicker.js"></script>
   <script src="js/jquery.timepicker.min.js"></script>
   <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
 

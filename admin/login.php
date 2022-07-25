@@ -84,21 +84,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                     <label>Password</label>
                                     <input class="au-input au-input--full" type="password" name="password" placeholder="Password">
                                 </div>
-                                <div class="login-checkbox">
-                                    <label>
-                                        <input type="checkbox" name="remember">Remember Me
-                                    </label>
-                                    <label>
-                                        <a href="#">Forgotten Password?</a>
-                                    </label>
-                                </div>
                                 <button class="au-btn au-btn--block au-btn--green m-b-20" type="submit">sign in</button>
 
                             </form>
                             <div class="register-link">
                                 <p>
-                                    Don't you have account?
-                                    <a href="#">Sign Up Here</a>
+                                    <h4>Hello writer!!</h4>
                                 </p>
                             </div>
                         </div>

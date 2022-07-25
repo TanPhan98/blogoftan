@@ -45,11 +45,9 @@
             <div class="desc">
               <h2 class="subheading">Hello I'm</h2>
               <h1 class="mb-4">Phan Nhat Tan</h1>
-              <p class="mb-4">I am a Student, from Vietnam, Nice to meet you.</p>
+              <p class="mb-4">I am a Student, from Tra Vinh Vietnam, Nice to meet you.</p>
               <ul class="ftco-social mt-3">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.facebook.com/nathan.henderson.5602728"><span class="icon-facebook"></span></a></li>
               </ul>
             </div>
           </div>

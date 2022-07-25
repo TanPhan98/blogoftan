@@ -22,24 +22,11 @@ $result = $new_category->read();
           <h2 class="ftco-heading-2">Have a Questions?</h2>
           <div class="block-23 mb-3">
             <ul>
-              <li><span class="icon icon-map-marker"></span><span class="text">1-9 Oakcrest Pl, Asheville, North Carolina 28806, USA</span></li>
-              <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 999999998</span></a></li>
-              <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+              <li><span class="icon icon-map-marker"></span><span class="text">Duyen Hai, Tra Vinh Province, Vietnam</span></li>
+              <li><a href="#"><span class="icon icon-envelope"></span><span class="text">20662001@kthcm.edu.vn</span></a></li>
             </ul>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-
-        <p>
-          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-          Copyright &copy;<script>
-            document.write(new Date().getFullYear());
-          </script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-        </p>
       </div>
     </div>
   </div>

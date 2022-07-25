@@ -19,14 +19,9 @@
 	<div class="colorlib-footer">
 		<p>
 			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-			Copyright &copy;<script>
-				document.write(new Date().getFullYear());
-			</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+			<p>Contact to me if you want.</p>
 		<ul>
-			<li><a href="#"><i class="icon-facebook"></i></a></li>
-			<li><a href="#"><i class="icon-twitter"></i></a></li>
-			<li><a href="#"><i class="icon-instagram"></i></a></li>
-			<li><a href="#"><i class="icon-linkedin"></i></a></li>
+			<li><a href="https://www.facebook.com/nathan.henderson.5602728"><i class="icon-facebook"></i></a></li>
 		</ul>
 	</div>
 </aside>

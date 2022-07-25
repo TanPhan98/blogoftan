@@ -79,7 +79,7 @@ $all_tags = $new_tag->read_50();
   <div class="sidebar-box subs-wrap img" style="background-image: url(images/bg_1.jpg);">
     <div class="overlay"></div>
     <h3 class="mb-4 sidebar-heading">Newsletter</h3>
-    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia</p>
+    <p class="mb-4">Far far away, behind the word mountains!!</p>
     <form action="" method="POST" class="subscribe-form">
       <div class="form-group">
         <input type="text" name="email" id="email" class="form-control" placeholder="Email Address">
@@ -89,8 +89,8 @@ $all_tags = $new_tag->read_50();
   </div>
 
   <div class="sidebar-box ftco-animate">
-    <h3 class="sidebar-heading">Paragraph</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut.</p>
+    <h3 class="sidebar-heading">Maxim</h3>
+    <p>Be who you are and say what you mean, because those who mind don’t matter and those who matter don’t mind. ― Dr. Seuss.</p>
   </div>
 
 </div><!-- END COL -->
