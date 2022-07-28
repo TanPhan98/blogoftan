@@ -125,7 +125,7 @@ if (empty($_SESSION['visitor'])) {
 												</p>
 											</div>
 											<div class="half">
-												<p><a href="blog.php?id=<?php echo $rows['n_blog_post_id'] ?>" class="btn py-2">Continue Reading <span class="ion-ios-arrow-forward"></span></a></p>
+												<p><a href="blogs.php?id=<?php echo $rows['n_blog_post_id'] ?>" class="btn py-2">Continue Reading <span class="ion-ios-arrow-forward"></span></a></p>
 											</div>
 										</div>
 									</div>
