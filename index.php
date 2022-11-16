@@ -66,6 +66,7 @@ if (empty($_SESSION['visitor'])) {
 <body>
 
 	<div id="colorlib-page">
+		<p> test thu thoi nha </p>
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
 		<?php
 		include "sidebar.php";
